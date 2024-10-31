@@ -1,0 +1,25 @@
+.container { 
+  width: 700px;
+  margin: 0auto;
+}
+
+@media(max-width: 960px) { 
+/* Pour un écran < 960px, ce CSS sera appliqué */
+.container {
+	width: 500px;
+ }
+}
+
+@media(max-width: 720px) { 
+/* Pour un écran < 720px, ce CSS sera appliqué */
+.container {
+	width: 500px;
+ }
+}
+
+@media(max-width: 540px) { 
+/* Pour un écran < 540px, ce CSS sera appliqué */
+.container {
+	width: 300px;
+ }
+}
